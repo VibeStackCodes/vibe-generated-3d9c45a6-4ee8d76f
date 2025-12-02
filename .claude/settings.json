@@ -1,0 +1,13 @@
+{
+  "projectId": "3d9c45a6-89eb-468d-841f-6437ea6f82ac",
+  "webhookUrl": "https://lucky-trams-decide.loca.lt/api/claude-code/progress",
+  "hooks": {
+    "enabled": true,
+    "events": [
+      "SessionStart",
+      "SessionEnd",
+      "PreToolUse",
+      "PostToolUse"
+    ]
+  }
+}
